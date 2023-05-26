@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "Get operating system-related data",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barcellos-pedro/nodejs-os-data.git"
   },
   "keywords": [
     "nodejs",
@@ -12,9 +19,9 @@
     "os"
   ],
   "author": "barcellos-pedro",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/barcellos-pedro/nodejs-os-data.git"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barcellos-pedro/nodejs-os-data/issues"
   },
-  "license": "ISC"
+  "homepage": "https://github.com/barcellos-pedro/nodejs-os-data#readme"
 }

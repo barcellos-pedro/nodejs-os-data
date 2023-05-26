@@ -18,5 +18,5 @@ async function getData(generateTxt = false, filename = "pc-info.txt") {
     throw err;
   }
 }
-getData()
+
 module.exports = getData;
