@@ -6,6 +6,9 @@
   "directories": {
     "lib": "lib"
   },
+  "bin": {
+    "nodejs-os-data": "./bin/run"
+  },
   "scripts": {
     "start": "node app.js"
   },
