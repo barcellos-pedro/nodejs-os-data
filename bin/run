@@ -1,5 +1,0 @@
-#!usr/bin/env node
-
-const getData = require('../lib/os')
-
-getData().catch(console.error)
