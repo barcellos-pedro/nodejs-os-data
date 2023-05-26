@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-os-data",
+  "version": "1.0.0",
+  "description": "Get operating system-related data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "vanilla",
+    "os"
+  ],
+  "author": "barcellos-pedro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barcellos-pedro/nodejs-os-data.git"
+  },
+  "license": "ISC"
+}
