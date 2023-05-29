@@ -1,21 +1,14 @@
 const fs = require("node:fs/promises");
-const getOSData = require("./lib/os");
+const getOSData = require("./lib/os-data");
 
-/**
- * Get operating system-related data
- *
- * @param {*} generateTxt Creates a .txt file with the data
- * @param {*} filename Filename to save the data
- */
-async function getData(generateTxt = false, filename = "pc-info.txt") {
+async function getData(createFile = false, filename = "info.txt") {
   try {
-    const data = getOSData();
-    generateTxt
-      ? await fs.writeFile(filename, data, "utf-8")
-      : console.log(data);
+    const dataString = getOSData();
+    createFile
+      ? await fs.writeFile(filename, dataString, "utf-8")
+      : console.log(dataString);
   } catch (err) {
-    console.error("Error when getting user data");
-    throw err;
+    throw new Error("Error when getting user data\n" + err.message);
   }
 }
 
