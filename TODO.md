@@ -1,7 +1,9 @@
 # TODO
 
-- Add screenshots
-    - Console log
-    - Generated file
+### Code
+- Tests
+
+### Docs
 - Code example
 - NPX example
+- Github actions to publish package to NPM
