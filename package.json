@@ -1,6 +1,7 @@
 {
   "name": "nodejs-os-data",
   "version": "1.0.4",
+  "type": "module",
   "description": "Get operating system-related data",
   "main": "app.js",
   "directories": {
@@ -10,7 +11,7 @@
     "nodejs-os-data": "bin/index.js"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node bin/index.js"
   },
   "repository": {
     "type": "git",

@@ -1,10 +1,10 @@
-const fs = require("node:fs/promises");
-const getFile = require("./lib/file-info");
-const getCSV = require("./lib/data/csv");
-const getString = require("./lib/data/string");
-const getJSON = require("./lib/data/json");
-const InvalidExtensionError = require("./lib/errors/invalid-ext");
-const DataError = require("./lib/errors/os-info");
+import fs from "node:fs/promises";
+import getFile from "./lib/file-info.js";
+import getCSV from "./lib/data/csv.js";
+import getString from "./lib/data/string.js";
+import getJSON from "./lib/data/json.js";
+import InvalidExtensionError from "./lib/errors/invalid-ext.js";
+import DataError from "./lib/errors/os-info.js";
 
 async function getData(createFile = false, filename = "info.txt") {
   try {
@@ -31,4 +31,4 @@ async function getData(createFile = false, filename = "info.txt") {
   }
 }
 
-module.exports = getData;
+export default getData;
