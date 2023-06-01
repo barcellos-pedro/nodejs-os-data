@@ -11,7 +11,9 @@
     "nodejs-os-data": "bin/index.js"
   },
   "scripts": {
-    "start": "node bin/index.js"
+    "start": "node bin/index.js",
+    "test": "node --test",
+    "build": "node bin/index.js"
   },
   "repository": {
     "type": "git",
