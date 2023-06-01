@@ -1,6 +1,6 @@
 {
   "name": "nodejs-os-data",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "description": "Get operating system-related data",
   "main": "app.js",
