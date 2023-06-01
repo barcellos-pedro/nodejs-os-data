@@ -1,11 +1,10 @@
 import assert from "node:assert";
 import { describe, it, mock } from "node:test";
 
-describe("test sample", (t) => {
-  it("should fail", () => assert.equal(1, 2));
-
-  it("test A", () => {
-    assert.equal(1, 1);
+describe("Test sample", () => {
+  it("sum should be some value", () => {
+    const sum = (a, b) => a + b;
+    assert.equal(sum(1, 1), 2);
   });
 
   describe("hello world", () => {
